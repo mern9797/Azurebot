@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <style>
+        body {
+            margin: 0; /* ลบ margin ออกเพื่อให้ iframe ขยายเต็มหน้าจอ */
+            height: 100vh; /* ตั้งความสูงของ body ให้เต็มหน้าจอ */
+        }
+
+        iframe {
+            display: block; /* ทำให้ iframe แสดงผลเป็น block (ไม่เป็น inline) */
+            width: 100vw;   /* ความกว้าง 100% ของหน้าจอ */
+            height: 100vh;  /* ความสูง 100% ของหน้าจอ */
+            border: none;   /* ลบขอบของ iframe */
+        }
+    </style>
+</head>
+<body>
+    <!-- Iframe ที่ขยายเต็มหน้าจอ -->
+    <iframe src="https://copilotstudio.microsoft.com/environments/Default-9c8f3faf-b1a9-4105-86a7-5df2a6776838/bots/Default_copilot/webchat?__version__=2" frameborder="0"></iframe>
+</body>
+</html>
